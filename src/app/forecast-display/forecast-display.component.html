@@ -2,7 +2,7 @@
 
 	<h1><i class="owf owf-5x" [ngClass]="setIconClass()"></i></h1>
 	<h2>{{forecast.weather[0].description | uppercase}}</h2>
-	<h2><small>·  {{forecast.main.temp}} ºC  ·</small></h2>
+	<h2><small>{{forecast.main.temp}} ºC</small></h2>
 
 	<span class="col-sm-3"></span>
 	<accordion class="more col-sm-6">
