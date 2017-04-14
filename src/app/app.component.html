@@ -1,0 +1,16 @@
+<div>
+	<div class="jumbotron">
+		<div class="container">
+			<header></header>
+			<search-bar #searchBar></search-bar>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<forecast-display [forecast]="searchBar.forecast"></forecast-display>
+		</div>
+	</div>
+
+	<footer></footer>
+</div>

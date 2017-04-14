@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+  	position: relative;
+  	min-height: 100%;
+}
+body {
+  	/* Margin bottom by footer height */
+ 	 margin-bottom: 50px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;  
+	/* Set the fixed height of the footer here */
+  	height: 40px;
+	background-color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px 0
+}
+
+.jumbotron {
+	padding-top: 0;
+}
+
+.loading {
+	color: #ababab;
+	text-align: center;
+	font-family: 'Spirax', cursive;
+}

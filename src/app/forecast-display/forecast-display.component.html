@@ -1,0 +1,30 @@
+<div *ngIf="forecast" class="col-xs-12 text-center">
+
+	<h1><i class="owf owf-5x" [ngClass]="setIconClass()"></i></h1>
+	<h2>{{forecast.weather[0].description | uppercase}}</h2>
+	<h2><small>·  {{forecast.main.temp}} ºC  ·</small></h2>
+
+	<span class="col-sm-3"></span>
+	<accordion class="more col-sm-6">
+		<accordion-group heading="More info.">
+			<p class="col-xs-6">
+				<i class="owf owf-903"></i>
+				Low. {{forecast.main.temp_min}}º
+			</p>
+			<p class="col-xs-6">
+				<i class="owf owf-904"></i>
+				High. {{forecast.main.temp_max}}º
+			</p>
+			<p class="col-xs-6">
+				<i class="owf owf-803"></i>
+				Clouds {{forecast.clouds.all}}%
+			</p>
+			<p class="col-xs-6">Humidt. {{forecast.main.humidity}}%</p>
+			<p class="col-xs-12">
+				<i class="owf owf-905"></i>
+				Wind speed {{forecast.wind.speed}} m/s
+			</p>
+		</accordion-group>
+	</accordion>
+	<span class="col-sm-3"></span>
+</div>
