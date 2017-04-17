@@ -6,7 +6,7 @@ You can see the running application [here](https://al-pez.github.io/wther/).
 Notice that API calls are made through [cors-anywhere](https://github.com/Rob--W/cors-anywhere)*,
 so just have in mind that requests/responses may take a bit longer.
 
-*>_a reverse proxy which adds CORS headers to the proxied requests_
+* >_a reverse proxy which adds CORS headers to the proxied requests_
 
 
 ## API's
