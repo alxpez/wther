@@ -1,0 +1,21 @@
+# wTher
+
+Minimalistic world forecast application built with [Angular](https://angular.io/).
+
+Notice that API calls are made through [cors-anywhere](https://github.com/Rob--W/cors-anywhere),
+so just have in mind that requests/responses may take a bit longer.
+
+>_CORS Anywhere is a NodeJS proxy which adds CORS headers to the proxied request._
+
+
+## API's
+
+- **google-places-api** (for predictive city search)
+- **openweathermap-api** (to retrieve forecast information).
+
+
+## Acknowledgments
+
+- Deniz Fuchidzhiev's [owfont](https://github.com/websygen/owfont)
+- valor-software's [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)
+- Rob Wu's [cors-anywhere](https://github.com/Rob--W/cors-anywhere)
