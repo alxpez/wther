@@ -7,13 +7,13 @@ Notice that API calls are reverse-proxied through [cors-anywhere](https://github
 so just have in mind that requests/responses may take a bit longer.
 
 
-## API's
+### API's
 
 - **google-places-api** (for predictive city search)
 - **openweathermap-api** (to retrieve forecast information).
 
 
-## Acknowledgments
+### Acknowledgments
 
 - Deniz Fuchidzhiev's [owfont](https://github.com/websygen/owfont)
 - Rob Wu's [cors-anywhere](https://github.com/Rob--W/cors-anywhere)
