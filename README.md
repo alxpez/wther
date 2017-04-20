@@ -3,10 +3,8 @@
 Minimalistic world forecast application built with [Angular](https://angular.io/).
 
 You can see the running application [here](https://al-pez.github.io/wther/).
-Notice that API calls are made through [cors-anywhere](https://github.com/Rob--W/cors-anywhere),
+Notice that API calls are reverse-proxied through [cors-anywhere](https://github.com/Rob--W/cors-anywhere),
 so just have in mind that requests/responses may take a bit longer.
-
->_CORS Anywhere is a NodeJS proxy which adds CORS headers to the proxied request._
 
 
 ## API's
@@ -18,5 +16,5 @@ so just have in mind that requests/responses may take a bit longer.
 ## Acknowledgments
 
 - Deniz Fuchidzhiev's [owfont](https://github.com/websygen/owfont)
-- valor-software's [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)
 - Rob Wu's [cors-anywhere](https://github.com/Rob--W/cors-anywhere)
+- valor-software's [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)
