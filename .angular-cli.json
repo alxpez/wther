@@ -20,7 +20,7 @@
       "prefix": "app",
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "../node_modules/owfont/css/owfont-regular.min.css",
+        "../bower_components/owfont/css/owfont-regular.min.css",
         "styles.css"
       ],
       "scripts": [],
