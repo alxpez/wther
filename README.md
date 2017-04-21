@@ -2,7 +2,7 @@
 
 Minimalistic world forecast application built with [Angular](https://angular.io/).
 
-You can see the running application [here](https://al-pez.github.io/wther/).
+You can see the running application [here](https://alxpez.github.io/wther/).
 Notice that API calls are reverse-proxied through [cors-anywhere](https://github.com/Rob--W/cors-anywhere),
 so just have in mind that requests/responses may take a bit longer.
 
